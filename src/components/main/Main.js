@@ -16,10 +16,10 @@ const Main = () => {
   const classes = useStyles();
   return (
     <Card className={classes.root}>
-      <CardHeader title="Expense Tracker" subheader="Powered by Speechly" />
+      <CardHeader title="Expense Tracker" subheader="track your money" />
       <CardContent>
         <Typography align="center" variant="h5">
-          Total Balance $100
+          {/* Total Balance $100 */}
         </Typography>
         <Typography
           variant="subtitle1"
