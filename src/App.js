@@ -14,7 +14,7 @@ const App = () => {
         spacing={0}
         alignContent="center"
         justify="center"
-        style={{ height: "100vh" }}
+        style={{ height: "auto" }}
       >
         <Grid item xs={12} sm={4}>
           <Details title="Income" />
