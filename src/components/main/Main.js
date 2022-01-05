@@ -16,17 +16,17 @@ const Main = () => {
   const classes = useStyles();
   return (
     <Card className={classes.root}>
-      <CardHeader title="Expense Tracker" subheader="track your money" />
+      <CardHeader title="Expense Tracker" subheader="Track your money" />
       <CardContent>
         <Typography align="center" variant="h5">
-          Total Balance $100
+          {/* Total Balance $100 */}
+          Start Tracking
         </Typography>
         <Typography
           variant="subtitle1"
           style={{ lineHeight: "1.5em", marginTop: "20px" }}
         >
-          InfoCard Try Saying: Add income for $100 in Category Salary for
-          Monday.... Add your income and expenses
+          Organize your earnings and spendings with this expense tracker
         </Typography>
         <Divider />
         <Form />

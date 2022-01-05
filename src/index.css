@@ -6,8 +6,9 @@ html {
 }
 
 body {
+  background-color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assests/money.png);
+    url(./assests/blackexpense.jpg);
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./assests/back2.jpg); */
   background-size: cover;
@@ -15,4 +16,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.grid-cards {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px gray, 0 10px 10px rgba(0, 0, 0, 0.22);
 }

@@ -36,7 +36,7 @@ const List = () => {
             </ListItemAvatar>
             <ListItemText
               primary={t.category}
-              secondary={`$${t.amount} - ${t.date}`}
+              secondary={`₹${t.amount} - ${t.date}`}
             />
             <ListItemSecondaryAction>
               <IconButton
